@@ -1,12 +1,16 @@
 {
   "dependencies": {
+    "mathjs": "^9.4.4",
     "moment": "^2.29.1"
   },
   "name": "modern-javascript",
   "description": "",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
